@@ -7,12 +7,13 @@ An easy way to completely reset this tablet
 1. Plug in the device into your computer 
 2. Enter "Download Mode" or "Odin Mode" (same thing) by pressing and holding Power, Volume Down, and Home at the same time. 
 3. Once you see a dialog, release the three keys and press Volume Up to enable your device to be overwritten
+4. Download the firmware files [here](https://androidfilehost.com/?fid=529152257862688251). Make sure to unzip the folder and place it somewhere you know.
 
 ## Configuration
 
 1. Launch Odin from the Odin folder. You will see a lot of options, leave them alone for now.
-2. If you wish to completely overwrite the partition table (recommended if tablet is broken), click on PIT and select the only pit file in the Firmware folder. Also select the Re-Partition and Nand Erase All options. Skip this step if you want to keep the partition table (untested).
-3. Click on the BL, AP, CP, and CSC boxes and select the appropriate file in the Firmware folder (make sure the beginning matches the box you click on).
+2. If you wish to completely overwrite the partition table (recommended if tablet is broken), click on PIT and select the only pit file in the folder of the firmware you downloaded. Also select the Re-Partition and Nand Erase All options. Skip this step if you want to keep the partition table (untested).
+3. Click on the BL, AP, CP, and CSC boxes and select the appropriate file in the same folder (make sure the beginning matches the box you click on).
 4. Make sure Auto Reboot and F. Reset Time are selected (they should've been selected when you started Odin).
 
 ## Flashing
