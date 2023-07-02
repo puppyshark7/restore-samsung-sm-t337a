@@ -39,7 +39,7 @@ An easy way to completely reset this tablet
 13. On the computer, type the following commands:
     ./adb shell
     pm hide com.osp.app.signin
-    pm hide com.sec.android.SecSetupWizard
+    pm hide com.sec.android.app.SecSetupWizard
 14. Reboot the device, and you won't have to sign in with Samsung.
 
 NOTE: This is a temporary procedure and blocks you from using a samsung account, disabling reactivation lock, or factory resetting from settings.
